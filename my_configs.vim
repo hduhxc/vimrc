@@ -12,3 +12,5 @@ autocmd FileType help       wincmd L
 autocmd VimEnter * silent NeomakeDisable
 command! EnableIDE silent NeomakeEnable<bar>CocStart
 command! VTerm     silent vsp term://$SHELL
+
+nnoremap q: <nop>
